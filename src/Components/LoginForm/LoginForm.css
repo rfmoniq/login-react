@@ -1,0 +1,115 @@
+.wrapper {
+    width: 26.2rem;
+    background: transparent;
+    border: 2px solid #ffffff33;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px #00000033;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1.8rem 2.5rem;
+}
+
+.wrapper h1 {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 3.1rem;
+    margin: 1.8rem 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid #ffffff33;
+    border-radius: 40px;
+    font-size: 1rem;
+    color: #fff;
+    padding: 1.2rem 2.8rem 1.2rem 1.2rem;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 1.2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1rem;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.90rem;
+    margin: -0.9rem 0 0.9rem;
+}
+
+.remember-forgot label input {
+    accent-color: #fff;
+    margin-right: 0.2rem;
+}
+
+.remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 2.8rem;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 700;
+}
+
+.wrapper .register-link {
+    font-size: 0.90rem;
+    text-align: center;
+    padding: 1.2rem 0 0.93rem;
+}
+
+.register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 475px) {
+    .wrapper {
+        width: 22rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .wrapper {
+        width: 19.2rem;
+        height: 26rem;
+    }
+
+    .wrapper .remember-forgot {
+        font-size: 0.8rem;
+    }
+}
